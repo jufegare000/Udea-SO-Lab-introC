@@ -20,7 +20,7 @@ void main() {
       }
 
       int result=isMultiple(a,b);
-      printf("%d es múltiplo de %d:%d\n", a,b,result);
+      printf("%d es múltiplo de %d:%s\n", a,b,(result==1)?"Si":"No");
   }
 }
 
